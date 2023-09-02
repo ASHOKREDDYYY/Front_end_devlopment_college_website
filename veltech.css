@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin:0px;
+}
+header img {
+    height: 100px;
+    margin: 0;
+    padding: 0px;
+    
+}
+body {
+    height: 100vh;
+    background-image: url('55vel.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+    padding: 2px;
+    font-size:large;
+}
+
+.main {
+    color: white;
+}
+
+header {
+    background-color: white;
+    position:relative;
+    top:0;
+    left:0;
+    right: 0;
+    height: 0px;
+    display: flex;
+    align-items: center;
+}
+    
+header * {
+    display: inline;
+
+}
+header li {
+    margin: 40px;
+}
+
+
+header li a {
+    color:#fff;
+    text-decoration: none;
+}
+a:link {
+    color:white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:#fff;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
